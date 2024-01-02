@@ -1,4 +1,4 @@
-.resultado {
+#resultado {
   grid-area: tela;
 }
 
@@ -6,43 +6,43 @@
   grid-area: apagar;
 }
 
-#1 {
+#key_1 {
   grid-area: numero1;
 }
 
-#2 {
+#key_2 {
   grid-area: numero2;
 }
 
-#3 {
+#key_3 {
   grid-area: numero3;
 }
 
-#4 {
+#key_4 {
   grid-area: numero4;
 }
 
-#5 {
+#key_5 {
   grid-area: numero5;
 }
 
-#6 {
+#key_6 {
   grid-area: numero6;
 }
 
-#7 {
+#key_7 {
   grid-area: numero7;
 }
 
-#8 {
+#key_8 {
   grid-area: numero8;
 }
 
-#9 {
+#key_9 {
   grid-area: numero9;
 }
 
-#0 {
+#key_0 {
   grid-area: numero0;
 }
 
@@ -77,10 +77,10 @@
 .container {
   display: grid;
   grid-template-areas:
-    "tela" "tela" "tela" "tela"
-    "limpar" "apagar" "ponto" "divisao"
-    "numero7" "numero8" "numero9" "multiplicacao"
-    "numero4" "numero5" "numero6" "subtracao"
-    "numero1" "numero2" "numero3" "soma"
-    "resultado" "resultado" "resultado" "resultado";
+    "tela tela tela tela"
+    "limpar apagar ponto divisao"
+    "numero7 numero8 numero9 multiplicacao"
+    "numero4 numero5 numero6 subtracao"
+    "numero1 numero2 numero3 soma"
+    "numero0 resultado resultado resultado";
 }

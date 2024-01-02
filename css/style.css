@@ -1,0 +1,86 @@
+.resultado {
+  grid-area: tela;
+}
+
+#apagar {
+  grid-area: apagar;
+}
+
+#1 {
+  grid-area: numero1;
+}
+
+#2 {
+  grid-area: numero2;
+}
+
+#3 {
+  grid-area: numero3;
+}
+
+#4 {
+  grid-area: numero4;
+}
+
+#5 {
+  grid-area: numero5;
+}
+
+#6 {
+  grid-area: numero6;
+}
+
+#7 {
+  grid-area: numero7;
+}
+
+#8 {
+  grid-area: numero8;
+}
+
+#9 {
+  grid-area: numero9;
+}
+
+#0 {
+  grid-area: numero0;
+}
+
+#soma {
+  grid-area: soma;
+}
+
+#subtracao {
+  grid-area: subtracao;
+}
+
+#multiplicacao {
+  grid-area: multiplicacao;
+}
+
+#divisao {
+  grid-area: divisao;
+}
+
+#igual {
+  grid-area: resultado;
+}
+
+#limpar {
+  grid-area: limpar;
+}
+
+#ponto {
+  grid-area: ponto;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "tela" "tela" "tela" "tela"
+    "limpar" "apagar" "ponto" "divisao"
+    "numero7" "numero8" "numero9" "multiplicacao"
+    "numero4" "numero5" "numero6" "subtracao"
+    "numero1" "numero2" "numero3" "soma"
+    "resultado" "resultado" "resultado" "resultado";
+}
